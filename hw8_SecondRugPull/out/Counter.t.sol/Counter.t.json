@@ -1,0 +1,79 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test/Counter.t.sol",
+    "id": 43354,
+    "exportedSymbols": {
+      "Test": [
+        12215
+      ],
+      "console2": [
+        30110
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:573:18",
+    "nodes": [
+      {
+        "id": 43350,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:18",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 43353,
+        "nodeType": "ImportDirective",
+        "src": "65:50:18",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/Test.sol",
+        "file": "forge-std/Test.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 43354,
+        "sourceUnit": 12216,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 43351,
+              "name": "Test",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 12215,
+              "src": "73:4:18",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 43352,
+              "name": "console2",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 30110,
+              "src": "79:8:18",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 18
+}
