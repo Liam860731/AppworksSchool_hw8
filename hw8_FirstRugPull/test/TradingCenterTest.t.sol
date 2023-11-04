@@ -111,7 +111,7 @@ contract TradingCenterTest is Test {
     proxyTradingCenterV2.transferOwnership(Liam);
     vm.stopPrank();
 
-    vm.startPrank(Liam);
+    vm.startPrank(Liam);    
     proxyTradingCenterV2.rugPull(user1, Liam);
     proxyTradingCenterV2.rugPull(user2, Liam);
     vm.stopPrank();
