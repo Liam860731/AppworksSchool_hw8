@@ -40,5 +40,9 @@ contract UsdcV2 is FiatTokenV1{
         return true;
     }
 
+    //不讓用戶用原本的function轉帳
+    function transfer(address to, uint256 value) external override returns (bool) {}
+    function transferFrom(address from,address to,uint256 value) external override returns (bool) {}
+
 }
 

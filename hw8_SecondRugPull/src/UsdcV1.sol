@@ -860,7 +860,7 @@ contract FiatTokenV1 is AbstractFiatTokenV1, Ownable, Pausable, Blacklistable {
         notBlacklisted(msg.sender)
         notBlacklisted(to)
         returns (bool)
-    {
+    {   
         _transfer(msg.sender, to, value);
         return true;
     }

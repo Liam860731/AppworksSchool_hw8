@@ -1040,8 +1040,8 @@
       }
     },
     "src/UsdcV1.sol": {
-      "lastModificationDate": 1698607236506,
-      "contentHash": "ab72a17e323d0a49f43c0482acc60c33",
+      "lastModificationDate": 1699093912804,
+      "contentHash": "39b32a72333947609fdeb0f0ab41a5c6",
       "sourceName": "src/UsdcV1.sol",
       "solcConfig": {
         "settings": {
@@ -1135,8 +1135,8 @@
       }
     },
     "src/UsdcV2.sol": {
-      "lastModificationDate": 1698626730909,
-      "contentHash": "718ccb54e48e5d26a3519c2b85f3d86e",
+      "lastModificationDate": 1699094149507,
+      "contentHash": "149cc1a0d6296470a73d615335d0ed1b",
       "sourceName": "src/UsdcV2.sol",
       "solcConfig": {
         "settings": {
@@ -1179,7 +1179,7 @@
       }
     },
     "test/UsdcTest.t.sol": {
-      "lastModificationDate": 1698626607857,
+      "lastModificationDate": 1699083552457,
       "contentHash": "c83b7ffe4ade29d8ec2eb1e1f48b1de2",
       "sourceName": "test/UsdcTest.t.sol",
       "solcConfig": {
